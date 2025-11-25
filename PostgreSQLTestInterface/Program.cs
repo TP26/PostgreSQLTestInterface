@@ -9,8 +9,7 @@ using static PostgreSQLTestInterface.Version_4;
 //1 - All SQl statements are written by hand, conversion to objects by hand
 //2 - data is parsed into data insertion statements that are then stored inside of subroutines. Experiment with insertion statement concatenation and the failures of these statements
 //3 - Subroutines only pass in objects for insertion and only receive objects when returned
-//4 - Subroutines become further genericised where the conversion function is passed in with the object type on retrieval. Do not pass in text statements for this either, have the subroutine recognise which table should be queried and retrieve the data.
-//  - Use enum pass in on select statement subroutines
+//4 - Subroutines become further genericised where the conversion function is passed in with the object type on retrieval.
 
 Console.WriteLine("Postgresql interface");
 string connectionString = getConnectionInformationFromUser();

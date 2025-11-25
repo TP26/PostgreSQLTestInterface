@@ -8,8 +8,6 @@ namespace PostgreSQLTestInterface
     internal class Version_4
     {
         //4 - Subroutines become further genericised where the conversion function is passed in with the object type on retrieval.
-        //  - Do not pass in text statements for this either, have the subroutine recognise which table should be queried and retrieve the data.
-        //  - Use enum pass in on select statement subroutines
         public static void Version4(NpgsqlConnection conn)
         {
             //Creating object table
