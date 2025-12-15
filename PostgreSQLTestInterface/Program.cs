@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Npgsql;
+﻿using Npgsql;
 using static PostgreSQLTestInterface.Version_1;
 using static PostgreSQLTestInterface.Version_2;
 using static PostgreSQLTestInterface.Version_3;
